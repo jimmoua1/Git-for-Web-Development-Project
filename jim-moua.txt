@@ -1,0 +1,138 @@
+1. What is Semantic HTML? 
+	- It is to make your HTML more understandable which code do what it does, and clean.
+	
+2. What is HTML used for?
+	- HTML used to create web pages.
+	
+3. What is an attribute and where do we put it? 
+	- An attribute is a characteristic you put it after a HTML element.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+	- The h1 tag is used to specify the website topic. It can only be used once on a page
+
+5. Name two tags that have required attributes
+	- The <a></a> tag and <section></section> tag
+
+6. What do we put in the head of our HTML document? 
+	- Depending on the page is giving to the reader. It is the main topic for what the website is giving out
+
+7. What is an id? 
+	- An id is to set a style for the html elemts
+
+8. What elements can I add an id to? 
+	- Only unique HTML elements
+
+9. How many times can I use the same id on a page? 
+	- Only 1 time on a unique element.
+
+10. What is a class? 
+	- It is an attribute which specifies one ore more class names
+
+11. What elements can I add a class to? 
+	- Any elements
+
+12. How many times can I use the same class on a page? 
+	- As you much ast you want on the page
+
+13. How do I get my link to open in a new tab?
+	- add <a name="here">text to click to the link</a>
+
+14. What is the alt attribute used for? 
+	- it is use for <img> tags to be validated
+
+15. How do I reference an id?
+	- Example, on html its named id="hi". On CSS you reference it by #hi"
+
+16. What is the difference between a section and a div
+	- Section defines the article appeared an entry in an outline of the page. Content that relates to the topic. 
+	  The div have no meaning
+
+17. What is CSS used for? 
+	- CSS is used to style the page
+
+18. How to we select an element? Example - every h2 on the page
+	- h2 { 
+		(selector here)
+		}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	- difference is a class identify more than one while id is only one element
+		Example
+			html 
+				class --->   <h2 class="wow">Wow</h2>
+				id    --->   <h2 #wow>Wow</h2>
+			css 
+				class --->   .class {
+								(selector here)
+								}
+				Id    --->	 #wow {
+								(selector here)
+								}
+						
+
+20. How do we select classes in CSS?
+	- you put a period ahead of the class name
+
+21. How do we select a p element with a single class of “human””?
+	- .human 
+
+22. What is a parent child selector? When would this be useful? 
+	- it is to name an element to be very unique. It is very useful to call it when it goes very deep containing the same class as other html elements 
+
+23. How do you select all links within a div with the class of sidebar?
+	- div * .sidebar
+
+24. What is a pseudo selector?
+	- it is to define a special state of an element.
+
+25. What do we use the change the spacing between lines?
+	- you use the line-height 
+		example.   line-height: 10px;
+
+26. What do we use to change the spacing between letters?
+	- you use letter-spacing
+		example.    letter-spacing 2px;
+		
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	- text-transform property
+
+28. How do I add a 1px border around my div that is dotted and black?
+	- border: 1px dotted black;
+
+29. How do I select everything on the page? 
+	- use the universal selector *
+
+30. How do I write a comment in CSS?
+	- start /* end it */
+
+31. How do I find out what file I am in, when I am using the command line? 
+	- use command "ls -la"
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	- use command "ls"
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	- use "git rm" have to be careful because there is no way to recover the file
+
+34. Why should I use version control? 
+	- it is a type of system that allows you to keep track of changes
+
+35. How often should I commit to github?
+	- When you finish a project, file, or most of the codes that you finished
+
+36. What is the command we would use to push our repo up to github? 
+	- git push
+
+37. Walk me through Lambda's git flow. 
+	  1. git clone <repo-address>				   //copy github file to computer directory
+	  2. cd <the clone repo directory>			   //make git go to the repo directory
+	  3. git checkout -b 'firstname-lastname'	   //make a new branch file called of "firstname-lastname"
+	  4. git branch 				   			   //check which branch your on		
+	  5. touch jim-moua.txt                        //make a jim-moua.txt file
+	  6. git status                                //check files
+	  7. git add .					               //add all files ready to upload to github website
+	  8. git status                                //check files again
+	  9. git commit -m "message of file change"	   //commit message display on github website for what is changed
+	  10. git push -u origin firstname-lastname    //upload file to github
+	
+	  
